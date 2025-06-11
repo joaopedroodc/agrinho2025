@@ -1,99 +1,26 @@
-/* Resetando margens e padding */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+/* Seção sobre a relação entre o campo e a cidade */
+.relacao {
+    background-color: #ffffff;
+    padding: 40px 0;
+    margin: 20px 0;
 }
 
-/* Corpo da página */
-body {
-    font-family: Arial, sans-serif;
-    line-height: 1.6;
-    background-color: #f4f4f4;
+.relacao h2 {
+    font-size: 2rem;
+    color: #4CAF50;
+    margin-bottom: 20px;
+}
+
+.relacao p {
+    font-size: 1.2rem;
+    color: #555;
+    line-height: 1.8;
+    margin-bottom: 20px;
+}
+
+.relacao h3 {
+    font-size: 1.5rem;
     color: #333;
-}
-
-/* Cabeçalho */
-header {
-    background-color: #4CAF50;
-    color: white;
-    padding: 20px;
-    text-align: center;
-}
-
-header nav ul {
-    list-style-type: none;
-}
-
-header nav ul li {
-    display: inline;
-    margin-right: 20px;
-}
-
-header nav ul li a {
-    color: white;
-    text-decoration: none;
-    font-weight: bold;
-}
-
-header .logo img {
-    width: 100px;
-    height: auto;
-}
-
-/* Seção Sobre */
-#sobre {
-    background-color: white;
-    padding: 40px;
-    text-align: center;
-}
-
-/* Cronograma */
-#cronograma {
-    background-color: #eaeaea;
-    padding: 40px;
-}
-
-#cronograma ul {
-    list-style-type: none;
-}
-
-#cronograma ul li {
+    margin-top: 20px;
     margin-bottom: 10px;
-}
-
-/* Galeria */
-#galeria {
-    padding: 40px;
-    text-align: center;
-}
-
-#galeria .gallery {
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-}
-
-#galeria .gallery img {
-    width: 22%;
-    border-radius: 10px;
-    margin: 10px;
-}
-
-/* Rodapé */
-footer {
-    background-color: #333;
-    color: white;
-    padding: 20px;
-    text-align: center;
-}
-
-footer .social-links a {
-    color: #bbb;
-    text-decoration: none;
-    margin: 0 10px;
-}
-
-footer .social-links a:hover {
-    color: white;
 }
